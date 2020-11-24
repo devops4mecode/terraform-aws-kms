@@ -54,7 +54,7 @@ Here is an example of how you can use this module in your inventory structure:
 ```hcl
   module "kms_key" {
     source      = "devops4mecode/kms/aws"
-    version     = "0.13.0"
+    version     = "1.1.0"
     name        = "kms"
     application = "devops4me"
     environment = "test"
